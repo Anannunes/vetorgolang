@@ -3,9 +3,12 @@ import "fmt"
 func main (){
 
 
-slice :=[]int{1,2,3,4,5}
-slice = append (slice,6,7,8)
-fmt.Println("slice",slice)
-fmt.Println(slice,len(slice),cap(slice))
+slice := []string {"shadow","sonic","superman","taylor swift","peter parker"}
+doisprimeiros := slice[0:2]
+fmt.Println(doisprimeiros)
+doisultimos := slice[3:]
+fmt.Println(doisultimos)
+nomedomeio := slice[2]
+fmt.Println(nomedomeio)
 
 }
